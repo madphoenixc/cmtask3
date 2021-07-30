@@ -1,0 +1,25 @@
+.heading{
+    
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+input{
+    align-items: center;
+}
+.split{
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.clickable {
+    cursor: pointer;
+  }
+  
+  canvas {
+    margin: 10px;
+  }
+  
+  canvas.selected {
+    border: 3px solid red;
+  }

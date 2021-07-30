@@ -6,13 +6,11 @@ import { AppComponent } from './app.component';
 import {FileUploadModule} from 'ng2-file-upload';
 import {GoogleLoginProvider,SocialAuthServiceConfig, SocialLoginModule} from 'angularx-social-login';
 import { AngularFileUploaderModule } from "angular-file-uploader";
-import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
    
   ],
   imports: [
@@ -29,7 +27,7 @@ import { HomeComponent } from './home/home.component';
           {
             id: GoogleLoginProvider.PROVIDER_ID,
             provider: new GoogleLoginProvider(
-              '956711150386-vu17mqj3hpomv1vgggln33a256l5uees.apps.googleusercontent.com'
+              '956711150386-rgjub56osdhr1g3ohp5s0th6piqomei5.apps.googleusercontent.com'
             )
           }
         ],

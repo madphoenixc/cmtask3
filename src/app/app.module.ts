@@ -6,13 +6,13 @@ import { AppComponent } from './app.component';
 import {FileUploadModule} from 'ng2-file-upload';
 import {GoogleLoginProvider,SocialAuthServiceConfig, SocialLoginModule} from 'angularx-social-login';
 import { AngularFileUploaderModule } from "angular-file-uploader";
-import { HomeComponent } from './home/home.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
+  
    
   ],
   imports: [

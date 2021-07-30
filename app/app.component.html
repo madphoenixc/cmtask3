@@ -1,0 +1,34 @@
+<div class="container">
+<div *ngIf="!user"class="card text-center heading">
+  <div class="card-block">
+      <h4 class="card-title">PDF SPLITTER</h4>  
+  </div>
+ 
+      <button class="btn align-self-sm-center" (click)="signinwithgoogle()">SignIn With Google</button>
+ 
+</div>
+
+<div *ngIf="user"class="card text-center heading">
+  <div class="card-block">
+     <p class="card-text">Welcome {{user.name}} !</p>
+     <p class="card-text">Email: {{user.email}}</p>
+     
+  </div>
+  <div class="card-block">
+    <!-- <angular-file-uploader
+    [config]="afuConfig">
+   </angular-file-uploader> -->
+<hr/>
+<p>Click the Button Below to Upload Your Pdf</p>
+  <form action="https://angularrauth.netlify.app">
+  <input type="submit" class="btn" value="Upload"/>
+  </form>
+  <button class="btn" (click)="signout()">SignOut</button>
+  
+
+      <br>
+  </div>
+ 
+</div>
+<router-outlet></router-outlet>
+</div>

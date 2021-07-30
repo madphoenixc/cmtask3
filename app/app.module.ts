@@ -10,8 +10,7 @@ import { AngularFileUploaderModule } from "angular-file-uploader";
 
 @NgModule({
   declarations: [
-    AppComponent,
-   
+    AppComponent
   ],
   imports: [
     BrowserModule,FileUploadModule,

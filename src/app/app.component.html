@@ -14,18 +14,14 @@
   <div class="card-block">
      <p class="card-text">Welcome {{user.name}} !</p>
      <p class="card-text">Email: {{user.email}}</p>
-     <p>Click the Link Below to Upload Your Pdf</p>
   </div>
   <div class="card-block">
-    <!-- <angular-file-uploader
-    [config]="afuConfig">
-   </angular-file-uploader> -->
-<input id="pdf-upload"accept=".pdf" type="file"/>
-<input id="pdf-create" type="button"value="Create new PDF file from the selected pages"/>
-<hr/>
-<div id="pdf-pages">
-</div>
-      <button class="btn btn-success split"type="submit">Split</button>
+  
+  <hr/>
+  <p>Click the Link Below to Upload Your Pdf</p>
+   <form action="https://angularrauth.netlify.app">
+  <input type="submit" class="btn btn-success" value="Upload"/>
+  </form>
       <br>
   </div>
   <button class="btn btn-primary" (click)="signout()">SignOut</button>
